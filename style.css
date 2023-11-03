@@ -1,17 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@media (max-width: 767px) {
-    .itembox {
-        display: block;
-    }
-
-    .imgbox {
-        padding: 20px;
-    }
-
-    .textbox {
-        text-align: justify;
-    }
-}
 
 * {
     margin: 0;
