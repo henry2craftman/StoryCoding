@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+
+        .wrapper .img-area {
+            height: 200px;
+            width: 200px;
+        }
+
+    .img-area .inner-area {
+        height: calc(100% - 30px);
+        width: calc(100% - 30px);
+    }
+
+    .inner-area img {
+        height: 100%;
+        width: 100%;
+    }
+}
 
 * {
     margin: 0;
