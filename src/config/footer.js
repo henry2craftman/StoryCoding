@@ -26,11 +26,11 @@ export const footerLists = [
 		title: 'Landing Pages',
 		items: [
 			{
-				title: 'Landing Page 1',
+				title: 'Twin Learner',
 				slug: '/landing-pages/landing-1',
 			},
 			{
-				title: 'Landing Page 2',
+				title: 'PLC 프로그램',
 				slug: '/landing-pages/landing-2',
 			},
       // {
@@ -60,21 +60,21 @@ export const footerLists = [
 		title: 'Theme',
 		items: [
 			{
-				title: 'Get Started',
+				title: '시작하기',
 				slug: '/theme/get-started',
 			},
 			{
-				title: 'Style Guide',
+				title: '사용 설명서',
 				slug: '/theme/style-guide',
 			},
-      {
-        title: 'Theme Setup',
-        slug: '/theme/theme-setup',
-      },
-      {
-        title: 'Customizing Odyssey',
-        slug: '/theme/customizing-odyssey',
-      }
+    //   {
+    //     title: 'Theme Setup',
+    //     slug: '/theme/theme-setup',
+    //   },
+    //   {
+    //     title: 'Customizing Odyssey',
+    //     slug: '/theme/customizing-odyssey',
+    //   }
 		],
 	},
 ];
