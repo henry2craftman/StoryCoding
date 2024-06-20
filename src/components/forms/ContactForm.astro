@@ -2,9 +2,12 @@
 import { Button, FormInput, FormSelect, FormTextarea } from '@components/odyssey-theme';
 
 const selectOptions = [
-  "Google Search",
-  "Social Media",
-  "Email",
+  "구글 검색",
+  "네이버 검색",
+  "인스타그램",
+  "유튜브",
+  "지인을 통해서",
+  "이메일",
 ]
 
 ---
@@ -12,9 +15,9 @@ const selectOptions = [
 <form name="Contact Form" method="POST" action="/contact-thank-you">
   <FormInput type="text" label="Name" name="Name" placeholder="John Doe" />
   <FormInput type="email" label="Email" name="Email" placeholder="hello@example.com" />
-  <FormSelect label="How Did You Hear About Us?" options={selectOptions} />
+  <FormSelect label="저희 서비스에 대해 어떻게 알게 되었나요?" options={selectOptions} />
   <FormTextarea label="Message" name="Message" placeholder="Your message here..." />
-  <Button>제출하기</Button>
+  <Button type="submit">제출하기</Button>
 </form>
 
 <style>
