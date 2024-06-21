@@ -26,7 +26,7 @@ export const footerLists = [
 		title: '2 Main Programs',
 		items: [
 			{
-				title: 'Twin Learner',
+				title: 'TWIN LEARNER',
 				slug: '/landing-pages/landing-1',
 			},
 			{
@@ -57,7 +57,7 @@ export const footerLists = [
 		],
 	},
 	{
-		title: 'Twin Learner 제작사 소개',
+		title: 'TWIN LEARNER 제작사 소개',
 		items: [
 			{
 				title: '시작하기',
