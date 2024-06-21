@@ -1,6 +1,6 @@
 export default {
-	title: `Odyssey Astro Theme | A Marketing Website Theme for Startups and Businesses`,
-	description: `A simple, clean, and modern theme for a startup or businesses' marketing website.`,
+	title: `Twin Learner | 전 세계 최고의 PLC 교육 프로그램 `,
+	description: `전 세계 최고의 PLC 교육 프로그램 Twin Learner는 여러분들에게 시각적으로 흥미로운 경험을 선사합니다!`,
 	url: `https://odyssey-theme.littlesticks.dev`, // No trailing slash!
 	name: `Twin Learner`, // The short name of the business or brand name. Used for things like the copyright in the footer.
   enableThemeSwitcher: true,
