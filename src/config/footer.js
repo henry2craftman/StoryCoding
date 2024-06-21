@@ -23,7 +23,7 @@ export const footerSocials = [
 
 export const footerLists = [
 	{
-		title: 'Landing Pages',
+		title: '2 Main Programs',
 		items: [
 			{
 				title: 'Twin Learner',
@@ -51,21 +51,21 @@ export const footerLists = [
 				slug: '/blog',
 			},
 			{
-				title: 'Contact',
-				slug: '/company/contact',
+				title: 'Blog Post',
+				slug: '/blog/posts/remote-work-mental-health',
 			},
 		],
 	},
 	{
-		title: 'Theme',
+		title: 'Twin Learner 제작사 소개',
 		items: [
 			{
 				title: '시작하기',
 				slug: '/theme/get-started',
 			},
 			{
-				title: '사용 설명서',
-				slug: '/theme/style-guide',
+				title: 'Contact',
+				slug: '/company/contact',
 			},
     //   {
     //     title: 'Theme Setup',
