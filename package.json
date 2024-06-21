@@ -28,6 +28,7 @@
 	},
 	"dependencies": {
 		"express": "^4.19.2",
-		"nodemailer": "^6.9.14"
+		"nodemailer": "^6.9.14",
+		"splendid-ui": "^0.11.0-alpha.4"
 	}
 }
