@@ -25,6 +25,16 @@ import {ThemeSwitcher} from '../../theme-switcher/theme-switcher';
             </Fragment>
             </Button>
 					<!-- <Button href="/theme/style-guide" unelevated>실행 설명서</Button> -->
+					<Button
+					href="https://forms.gle/He9c5EMPwcpSzGr8A"
+					outlined
+					newTab
+					customIcon
+					>
+					베타 테스터 신청하기
+					<Fragment slot="icon">
+					  <Icon name="ic:baseline-launch" />
+					</Fragment>
 				</div>
         {settings.enableThemeSwitcher && <ThemeSwitcher client:only/>}
 		</div>
